@@ -1,10 +1,11 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './LogIn.css';
 
 const LogIn = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const [token, setToken] = useState('');
+    const history = useNavigate();
 
     const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setUsername(event.target.value);
@@ -22,8 +23,6 @@ const LogIn = () => {
                 password: password,
             };
 
-            console.log(JSON.stringify(loginData));
-
             try {
                 // Send the data to your endpoint using the fetch API
                 const response = await fetch('https://localhost:7264/api/auth/login', {
@@ -37,9 +36,8 @@ const LogIn = () => {
                 if (response.ok) {
                     console.log('Login successful');
                     await response.json().then((data) => {
-                        setToken(data.token);
+                        history('/todolist/' + data.token);
                     });
-                    console.log(token);
                 } else {
                     console.error('Login failed');
                 }

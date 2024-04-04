@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <Register />,
   },
   {
-    path: "todopage",
+    path: "/todolist/:token",
     element: <ToDoPage />,
   },
 ]);
