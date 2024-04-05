@@ -65,6 +65,7 @@ const Register = () => {
                     <input type="password" value={password} onChange={handlePasswordChange} />
                 </div>
                 <button onClick={handleSubmit}>Register</button>
+                <div className='register-link' onClick={() => window.location.href = '/'}>Register</div>
             </div>
         </div>
     );
