@@ -1,61 +1,48 @@
-# Awesome Website
+# Todo List Website
 
-Welcome to Awesome Website! This is a fantastic React TypeScript project that aims to [briefly describe the purpose or main features of your website].
+Welcome to TodoList Website! This project is a React TypeScript application that helps you organize your tasks effectively.
 
-## Table of Contents
+## Preview
 
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+![Login](preview/login.png)
+*Login Page*
 
-## Demo
+![Register](preview/register.png)
+*Registration Page*
 
-[Insert screenshots, gifs, or a link to a live demo of your website here]
+![Add Task](preview/add-task.png)
+*Adding a Task*
 
-## Features
+![Added Task](preview/task-added.png)
+*Task Added*
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- ...
+![More Tasks](preview/more-tasks.png)
+*Viewing More Tasks*
 
-## Installation
+![Delete Task](preview/delete-task.png)
+*Deleting ear Task*
 
-To run this project locally, follow these steps:
+![Complete Task](preview/complete-task.png)
+*Completing the Homework Task*
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+## How It Works
+### Description
+Todo List Website is a simple task management application built with React and TypeScript. It allows users to create an account, log in, add tasks, mark tasks as complete, and delete tasks.
 
-## Usage
+### Key Features:
+#### User Authentication:
+Securely create an account or log in to access task management features.
 
-[Provide instructions on how to use your website. Include any configuration options or notable components.]
+#### Task Management:
+Add tasks to your list, mark them as complete, or delete them as needed.
 
-## Contributing
+#### Easy-to-Use Interface:
+The interface is designed for simplicity, making it easy to navigate and manage tasks.
 
-We welcome contributions from the community! If you'd like to contribute to this project, please follow these guidelines:
+#### Privacy and Security:
+Your data is encrypted and secure, ensuring your privacy is protected.
 
-1. Fork the repository and create your branch: `git checkout -b feature/my-feature`
-2. Commit your changes: `git commit -am 'Add some feature'`
-3. Push to the branch: `git push origin feature/my-feature`
-4. Submit a pull request
+#### Todo List Website simplifies task management, helping users stay organized and focused on their tasks.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Please make sure to update tests as appropriate and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## License
-
-[Insert license information here. Consider choosing an open-source license such as MIT or Apache 2.0.]
-
----
-
-[Optional: Add badges here, such as build status, license, etc.]
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[Optional: Add acknowledgments, contact information, or anything else you'd like to include.]
-
-This project was created with ❤️ by [Your Name]. Feel free to [reach out](mailto:youremail@example.com) with any questions or feedback.
+This project was created by Bocti. Feel free to [reach out](bacter.cris1@gmail.com) with any questions or feedback.
